@@ -52,7 +52,6 @@ int S_calc(std::string str) {
 int main() {
 
     //assert statements go here...
-    std::cout << S_calc("1,2,3") << std::endl;
     assert(S_calc("1,2,3") == 6);
     assert(S_calc("") == 0);
     assert(S_calc("0") == 0);
